@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #ff2e4a;
 }
 
 .dev-icons {
@@ -80,7 +80,26 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #ff2e4a;
+}
+
+.video-play-button-container {
+  cursor: pointer;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+
+.video-play-button-container .img-fluid {
+  border-radius: 2px;
+}
+
+.video-play-button {
+  height: 60%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +109,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #ff7b8c;
 }
 
 @media (min-width: 992px) {
@@ -176,17 +195,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #ff2e4a !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #ff2e4a !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #ff2e4a;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #e1001e;
 }

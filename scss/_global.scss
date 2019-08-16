@@ -78,3 +78,21 @@ p.lead {
     }
   }
 }
+
+.video-play-button-container {
+  cursor: pointer;
+  margin-bottom: 0.5em;
+  position: relative;
+  .img-fluid {
+    border-radius: 2px;
+  }
+}
+.video-play-button {
+  height: 60%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

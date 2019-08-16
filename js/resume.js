@@ -25,4 +25,18 @@
     target: '#sideNav'
   });
 
+  var initializeMagnificPopup = function () {
+    $('.video-play-button-container').each(function(_, _playButtonContainer) {
+      var playButtonContainer = $(_playButtonContainer);
+      playButtonContainer.magnificPopup({
+        items: {
+          src: playButtonContainer.attr('data-video-src')
+        },
+        type: 'iframe'
+      });
+    });
+  };
+
+  initializeMagnificPopup()
+
 })(jQuery); // End of use strict
