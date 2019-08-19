@@ -179,6 +179,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (min-width: 768px) {
+  section.resume-section .resume-item .resume-date {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
