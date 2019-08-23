@@ -102,6 +102,10 @@ p.lead {
   transform: translate(-50%, -50%);
 }
 
+.badge-pill {
+  width: 36px;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
